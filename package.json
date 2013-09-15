@@ -2,7 +2,7 @@
   "name": "cron-messenger",
   "version": "0.1.0",
   "description": "A cron-like tool that dispatches messages on fixed schedules.",
-  "main": "index.js",
+  "bin": "./src/index.coffee",
   "dependencies": {
     "colors": "0.6.x",
     "express": "3.x",
@@ -28,7 +28,7 @@
     "aws"
   ],
   "author": "Stijn Debrouwere",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/stdbrouw/cron-messenger/issues"
   }

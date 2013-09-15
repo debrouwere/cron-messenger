@@ -1,3 +1,5 @@
+#!/usr/bin/env coffee
+
 express = require 'express'
 redis = require 'redis'
 aws = require 'aws-sdk'
