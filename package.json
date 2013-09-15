@@ -1,0 +1,35 @@
+{
+  "name": "cron-messenger",
+  "version": "0.1.0",
+  "description": "A cron-like tool that dispatches messages on fixed schedules.",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "0.6.x",
+    "express": "3.x",
+    "later": "1.x",
+    "underscore": "1.5.x", 
+    "redis": "0.8.x",
+    "hiredis": "0.1.x",
+    "aws-sdk": "1.x", 
+    "async": "0.2.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdbrouw/cron-messenger.git"
+  },
+  "keywords": [
+    "cron",
+    "sqs",
+    "mq",
+    "aws"
+  ],
+  "author": "Stijn Debrouwere",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/stdbrouw/cron-messenger/issues"
+  }
+}
