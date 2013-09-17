@@ -172,7 +172,7 @@ class Messenger
         attemptToSend callback
 
     remove: (callback=noop) ->
-        Messenger.delete @name, callback
+        Messenger.deleteRelated @name, callback
 
     update: (callback=noop) ->
         score = @schedule.score()
