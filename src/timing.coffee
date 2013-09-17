@@ -9,5 +9,6 @@ exports.decay = (timeseries, start, lambda, now) ->
 
     timeseries.filter (tick, i) -> i % geo is 0
 
-exports.next = (ticks) ->
-    _.find ticks, (tick) -> tick - new Date() > 1000
+exports.next = (ticks, now) ->
+    now ?= new Date()
+    _.find ticks, (tick) -> tick - now > 1000

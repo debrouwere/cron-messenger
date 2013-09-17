@@ -120,11 +120,11 @@ class Schedule
         schedule = later.schedule later.parse.cron @cron
 
         if @decay
-            ticks = schedule.next Infinity, @start, later.d.end(now)
+            ticks = schedule.next Infinity, (later.d.start now), (later.d.end now)
             ticksWithDecay = timing.decay ticks, @start, @decay, now
-            nextTick = timing.next ticksWithDecay
+            nextTick = timing.next ticksWithDecay, now
         else
-            nextTick = schedule.next 1
+            nextTick = schedule.next 1, now
 
         nextTick or NaN
 

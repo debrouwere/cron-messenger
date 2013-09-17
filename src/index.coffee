@@ -18,7 +18,7 @@ app.post '/', (req, res) ->
     message = new Message req.body.name, req.body.destination, req.body.payload
     schedule = new models.Schedule req.body.name, req.body.schedule
     messenger = new models.Messenger req.body.name, message, schedule
-    
+
     messenger.exists (err, exists) ->
         shouldReplace = req.body.replace ? yes
 
