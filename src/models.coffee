@@ -113,6 +113,7 @@ class Schedule
 
     next: (now) ->
         now ?= new Date()
+        tomorrow = new Date now.getTime() + later.d.range * 1000
 
         if not (@start <= now < @stop)
             return NaN
@@ -120,7 +121,7 @@ class Schedule
         schedule = later.schedule later.parse.cron @cron
 
         if @decay
-            ticks = schedule.next Infinity, (later.d.start now), (later.d.end now)
+            ticks = schedule.next Infinity, (later.d.start now), tomorrow
             ticksWithDecay = timing.decay ticks, @start, @decay, now
             nextTick = timing.next ticksWithDecay, now
         else
