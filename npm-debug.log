@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/stdbrouw/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+12 verbose folder .
+13 info prepublish cron-messenger@0.1.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/stdbrouw/.npm/1f1177db-tar.lock
+16 silly lockFile 760ca262-20641-0-9860726501792669-tmp-tgz tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+17 verbose lock tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz /Users/stdbrouw/.npm/760ca262-20641-0-9860726501792669-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 760ca262-20641-0-9860726501792669-tmp-tgz tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+21 silly lockFile 760ca262-20641-0-9860726501792669-tmp-tgz tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+22 verbose tar unpack /var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+23 silly lockFile c915e9d8-20641-0-9860726501792669-package tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package
+24 verbose lock tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package /Users/stdbrouw/.npm/c915e9d8-20641-0-9860726501792669-package.lock
+25 silly lockFile 760ca262-20641-0-9860726501792669-tmp-tgz tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+26 verbose lock tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz /Users/stdbrouw/.npm/760ca262-20641-0-9860726501792669-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry bin/cron-messenger.conf
+32 silly gunzTarPerm extractEntry src/index.coffee
+33 silly gunzTarPerm extractEntry src/models.coffee
+34 silly gunzTarPerm extractEntry src/timing.coffee
+35 silly gunzTarPerm extractEntry src/utils.coffee
+36 silly gunzTarPerm extractEntry test/guardian.coffee
+37 silly lockFile c915e9d8-20641-0-9860726501792669-package tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package
+38 silly lockFile c915e9d8-20641-0-9860726501792669-package tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package
+39 silly lockFile 760ca262-20641-0-9860726501792669-tmp-tgz tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+40 silly lockFile 760ca262-20641-0-9860726501792669-tmp-tgz tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/tmp.tgz
+41 verbose tar pack [ '/Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz',
+41 verbose tar pack   '/var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package' ]
+42 verbose tarball /Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+43 verbose folder /var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package
+44 silly lockFile c915e9d8-20641-0-9860726501792669-package tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package
+45 verbose lock tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package /Users/stdbrouw/.npm/c915e9d8-20641-0-9860726501792669-package.lock
+46 silly lockFile 30b71e89-cron-messenger-0-1-1-package-tgz tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+47 verbose lock tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz /Users/stdbrouw/.npm/30b71e89-cron-messenger-0-1-1-package-tgz.lock
+48 silly lockFile c915e9d8-20641-0-9860726501792669-package tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package
+49 silly lockFile c915e9d8-20641-0-9860726501792669-package tar:///var/folders/ts/lxdf2nj51_qg_qq3j131mfs80000gn/T/npm-19183-CDtonlHQ/1384452920641-0.9860726501792669/package
+50 silly lockFile 30b71e89-cron-messenger-0-1-1-package-tgz tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+51 silly lockFile 30b71e89-cron-messenger-0-1-1-package-tgz tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+52 silly lockFile aaae1a62-npm-cron-messenger-0-1-1-package /Users/stdbrouw/.npm/cron-messenger/0.1.1/package
+53 verbose lock /Users/stdbrouw/.npm/cron-messenger/0.1.1/package /Users/stdbrouw/.npm/aaae1a62-npm-cron-messenger-0-1-1-package.lock
+54 silly lockFile aaae1a62-npm-cron-messenger-0-1-1-package /Users/stdbrouw/.npm/cron-messenger/0.1.1/package
+55 silly lockFile aaae1a62-npm-cron-messenger-0-1-1-package /Users/stdbrouw/.npm/cron-messenger/0.1.1/package
+56 verbose tar unpack /Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+57 silly lockFile 4b3e854a-npm-cron-messenger-0-1-1-package tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package
+58 verbose lock tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package /Users/stdbrouw/.npm/4b3e854a-npm-cron-messenger-0-1-1-package.lock
+59 silly lockFile 30b71e89-cron-messenger-0-1-1-package-tgz tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+60 verbose lock tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz /Users/stdbrouw/.npm/30b71e89-cron-messenger-0-1-1-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry bin/cron-messenger.conf
+66 silly gunzTarPerm extractEntry src/index.coffee
+67 silly gunzTarPerm extractEntry src/models.coffee
+68 silly gunzTarPerm extractEntry src/timing.coffee
+69 silly gunzTarPerm extractEntry src/utils.coffee
+70 silly gunzTarPerm extractEntry test/guardian.coffee
+71 silly lockFile 4b3e854a-npm-cron-messenger-0-1-1-package tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package
+72 silly lockFile 4b3e854a-npm-cron-messenger-0-1-1-package tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package
+73 silly lockFile 30b71e89-cron-messenger-0-1-1-package-tgz tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+74 silly lockFile 30b71e89-cron-messenger-0-1-1-package-tgz tar:///Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz
+75 verbose chmod /Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz 644
+76 verbose chown /Users/stdbrouw/.npm/cron-messenger/0.1.1/package.tgz [ 501, 20 ]
+77 silly lockFile 3a52ce78- .
+78 silly lockFile 3a52ce78- .
+79 silly publish { name: 'cron-messenger',
+79 silly publish   version: '0.1.1',
+79 silly publish   description: 'A cron-like tool that dispatches messages on fixed schedules.',
+79 silly publish   bin: { 'cron-messenger': './src/index.coffee' },
+79 silly publish   dependencies:
+79 silly publish    { colors: '0.6.x',
+79 silly publish      express: '3.x',
+79 silly publish      later: '1.x',
+79 silly publish      underscore: '1.5.x',
+79 silly publish      redis: '0.8.x',
+79 silly publish      hiredis: '0.1.x',
+79 silly publish      'aws-sdk': '1.x',
+79 silly publish      async: '0.2.x' },
+79 silly publish   devDependencies: {},
+79 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+79 silly publish   repository:
+79 silly publish    { type: 'git',
+79 silly publish      url: 'git://github.com/stdbrouw/cron-messenger.git' },
+79 silly publish   keywords: [ 'cron', 'sqs', 'mq', 'aws' ],
+79 silly publish   author: { name: 'Stijn Debrouwere' },
+79 silly publish   license: 'MIT',
+79 silly publish   bugs: { url: 'https://github.com/stdbrouw/cron-messenger/issues' },
+79 silly publish   readme: 'Don\'t you hate how SQS doesn\'t support visibility delays over 15 minutes? Doesn\'t it annoy you that AWS data pipelines are a buck a month for a single cron entry? Do you have tasks with start and end dates, or perhaps tasks that need to run less often as time passes?\n\n`cron-messenger` allows you to efficiently specify and run hundreds of thousands of crons on a single EC2 machine. The caveat: your cron can\'t actually execute anything but instead will send a message to a message queue, call a webhook or otherwise notify _something else_ to take care of whatever needs to happen.\n\nThe messenger is a node.js application and uses Redis as its back-end. Because Redis is an in-memory database, make sure that your box has enough memory. An EC2 micro can roughly store about a million jobs.\n\n# You may also like...\n\n* If you\'re looking for a more general purpose cron-like tool for your AWS based data processing, [AWS Data Pipeline](http://aws.amazon.com/datapipeline/) is probably what you need.\n* If you\'re looking for a hosted solution for running delayed tasks and running tasks on a schedule, [IronWorker](http://dev.iron.io/worker/scheduling/) and [PiCloud](http://blog.picloud.com/2010/08/10/crons-in-the-cloud/) do what you want.\n* If you\'re looking for a cron-slash-data-pipeline tool that is very robust and not tied to Amazon\'s infrastructure, try AirBnB\'s [chronos](https://github.com/airbnb/chronos).',
+79 silly publish   readmeFilename: 'README.md',
+79 silly publish   _id: 'cron-messenger@0.1.1',
+79 silly publish   dist: { shasum: '724fdeee89f59b0e7281522e718894a8f12e2d6f' },
+79 silly publish   _from: '.' }
+80 verbose url raw cron-messenger
+81 verbose url resolving [ 'https://registry.npmjs.org/', './cron-messenger' ]
+82 verbose url resolved https://registry.npmjs.org/cron-messenger
+83 info trying registry request attempt 1 at 18:15:20
+84 http PUT https://registry.npmjs.org/cron-messenger
+85 http 409 https://registry.npmjs.org/cron-messenger
+86 verbose url raw cron-messenger
+87 verbose url resolving [ 'https://registry.npmjs.org/', './cron-messenger' ]
+88 verbose url resolved https://registry.npmjs.org/cron-messenger
+89 info trying registry request attempt 1 at 18:15:21
+90 http GET https://registry.npmjs.org/cron-messenger
+91 http 200 https://registry.npmjs.org/cron-messenger
+92 error publish fail Cannot publish over existing version.
+92 error publish fail Update the 'version' field in package.json and try again.
+92 error publish fail
+92 error publish fail If the previous version was published in error, see:
+92 error publish fail     npm help unpublish
+92 error publish fail
+92 error publish fail To automatically increment version numbers, see:
+92 error publish fail     npm help version
+93 error System Darwin 12.5.0
+94 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+95 error cwd /Users/stdbrouw/Projects/Apps/cron-messenger
+96 error node -v v0.10.15
+97 error npm -v 1.3.5
+98 error code EPUBLISHCONFLICT
+99 verbose exit [ 1, true ]

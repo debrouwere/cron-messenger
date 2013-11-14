@@ -1,6 +1,6 @@
 {
   "name": "cron-messenger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A cron-like tool that dispatches messages on fixed schedules.",
   "bin": "./src/index.coffee",
   "dependencies": {
