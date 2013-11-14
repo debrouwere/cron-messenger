@@ -137,13 +137,11 @@ class Schedule
         else
             NaN
 
-
 Schedule.load = (name, callback=noop) ->
     cache.hget ['schedules', name], (err, data) ->
         options = JSON.parse data
         schedule = new Schedule name, options
         callback null, schedule
-
 
 Schedule.delete = (name, callback=noop) ->
     cache.hdel ['schedules', name], callback
