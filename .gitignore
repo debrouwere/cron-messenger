@@ -2,3 +2,4 @@
 lib
 dump.rdb
 node_modules
+*.log
